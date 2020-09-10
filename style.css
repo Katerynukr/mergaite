@@ -1,29 +1,34 @@
 body {
     background-color: #F8F8F8;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
     header {
         display: inline-block;
-        background-color: yellow;
+        /* background-color: yellow; */
         width: 1000px;
         margin-left: calc( (100% - 1000px) / 2 );
     }
         header > img {
             display: inline-block;
             float: left;
+            margin-top: 15px;
         }
         nav {
             display: inline-block;
             float: right;
+            word-spacing: 1.2em;
         }
             a {
                 display: inline-block;
+                text-decoration: none;
             }
             #botton{
                 display: inline-block;
+              
             }
     main {
         display: inline-block;
-        background-color: blueviolet;
+        /* background-color: blueviolet; */
         width: 1000px;
         margin-left: calc( (100% - 1000px) / 2 );
     }
@@ -31,15 +36,20 @@ body {
             display: inline-block;
             width: 40%;
             float: left;
-            background-color: blue;
+            /* background-color: blue; */
             margin-right: 10%;
-            margin-top: 50px;
+            margin-top: 60px;
+            color: #9E9E9E ;
         }
             h1 {
                 display: inline-block;
+                font-size: 80px;
+                margin: 0;
             }
             p {
                 display: inline-block;
+                font-size: 30px;
+                margin: 0;
             }
         main > img {
             display: inline-block;
